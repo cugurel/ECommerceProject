@@ -1,0 +1,17 @@
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\Business.dll
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\Entity.dll
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\cagri\source\repos\EcommersProject\Business\bin\Debug\net6.0\Entity.pdb
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.dll
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\cagri\source\repos\EcommersProject\Business\obj\Debug\net6.0\ref\Business.dll
