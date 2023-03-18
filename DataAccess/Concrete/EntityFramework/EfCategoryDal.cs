@@ -1,4 +1,5 @@
-﻿using DataAccess.Abstract;
+﻿using Core.DataAccess.EntityFramework;
+using DataAccess.Abstract;
 using Entity.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    internal class EfCategoryDal : ICategoryDal
+    internal class EfCategoryDal : EfEntityRepositoryBase<Category, Context>, ICategoryDal
     {
         public void Add(Category entity)
         {
