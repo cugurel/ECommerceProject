@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Entity\\Entity.csproj": {}
+    "C:\\Users\\cagri\\source\\repos\\Solution\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\Core.csproj": {
+    "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\cagri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Entity\\Entity.csproj": {
+    "C:\\Users\\cagri\\source\\repos\\Solution\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\cagri\\source\\repos\\Solution\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\cagri\\source\\repos\\Solution\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\cagri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\cagri\\source\\repos\\Solution\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Core\\Core.csproj"
+              "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\cagri\\source\\repos\\Solution\\Core\\Core.csproj"
               }
             }
           }

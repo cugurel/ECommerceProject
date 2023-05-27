@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/N61tIe4okBNdvJE83PmGU8kSEiWzoFZXk9LSH+ok0AFD8LG5jzBYmwTKRruVd3e0m5BF54a+/AnHxgb4slNHA==",
+  "dgSpecHash": "mx0MHr9pfb9eZHveoa0jC+2VwDDGBsGdlW2WRVAwKoijvTGwP0A6DRjjhNPQvBDkKiSyzxuom06iMw2HZrOnnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\Solution\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cagri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzN0yJ73NjuV2LlNhiVKn8fekB9X/NrdwUKxRTZVWXgdUQhw1XwfrjZBw7L0aS1VphmjNYN5D6LOm4BCun/bKg==",
+  "dgSpecHash": "PR8LY7rqHU4vXNeBb32SPC3HrH+BWog3JZwtTlCS6e5pzgvUQQzUmEuOTPe80oNZ7HdSdz14CQVBZ7mv6aZYXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\Solution\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cagri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

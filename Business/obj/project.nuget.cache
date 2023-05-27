@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xx6HX4DR4XVRfVTVKGHbPuDotqdcsYDlgFiIE15YpymvuVJyEnsuTveFCIHYhmHgq0NbxVUc9AOpyV8BN+6pBg==",
+  "dgSpecHash": "d1PVlOTppc804oB1v2IDx9VLoA5SZi04H7gDMXvGll4qXmtISg7g0XibVaR6iMjZuaODbNuDO60uqIwDQRDFbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\EcommersProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\cagri\\source\\repos\\Solution\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cagri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
