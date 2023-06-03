@@ -31,9 +31,9 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);
         }
 
-        public List<Product> GetAllByCategoryId(int id)
+        public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return _productDal.GetAll(p=>p.CategoryId == id);
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.CategoryId == id));
         }
     }
 }
