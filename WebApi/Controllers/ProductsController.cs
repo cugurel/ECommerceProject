@@ -17,12 +17,42 @@ namespace WebApi.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
-       public List<Product> GetAllProducts()
+        [HttpGet("getall")]
+        public IActionResult Get()
         {
-            IProductService productService = new ProductManager(new EfProductDal());
-            var result=productService.GetAll();
-            return result.Data;
+            var result=_productService.GetAll();
+            if(result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
+        }
+
+
+        [HttpGet("getbycategoryid")]
+        public IActionResult Get(int id)
+        {
+            var result = _productService.GetAllByCategoryId(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
+        }
+
+
+        [HttpGet("add")]
+        public IActionResult Post(Product product)
+        {
+            var result = _productService.Add(product);
+            if(result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
         }
     }
 }
