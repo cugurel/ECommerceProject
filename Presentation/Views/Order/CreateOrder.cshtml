@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Form Layouts";
+    ViewBag.pTitle = "Form Layouts";
+    ViewBag.pageTitle = "Forms";
+    Layout = "~/Views/_Shared/Layouts/_layout_horizontal.cshtml";
+}
+
+<div class="row">
+    <div class="col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Yeni Sipariş Oluştur</h4>
+
+                <form>
+                    <div class="row">
+                        <div class="alert alert-success text-center" role="alert">
+                          Müşterilerinize sistemde tanımlı ürün ve hizmetler için yeni bir sipariş oluşturabilirsiniz. Sipariş oluşturma aşamasında eğer fatura bilgisini "Ödendi" işaretlerseniz, sipariş aktif edilir ve fatura ödenmiş durumda görüntülenir. Eğer "Ödenmedi" olarak işaretlerseniz müşteriniz faturayı ödeyene kadar hizmet durumu beklemede kalır. Dilerseniz fatura üretmeden sipariş oluşturabilirsiniz.
+                        </div>
+                        <hr></hr>
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Müşteri</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <select class="form-control select2">
+                                    <option>Bir Müşteri Seçin</option>
+                                    <option value="AK">Onayla</option>
+                                    <option value="HI">Aktif Et</option>
+                                    <option value="HI">Okundu İşaretle</option>
+                                    <option value="HI">İptal Et</option>
+                                    <option value="HI">Askıya Al</option>
+                                    <option value="HI">Sil</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary w-md">Oluştur</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<script src="~/assets/js/app.js"></script>
+
+
+

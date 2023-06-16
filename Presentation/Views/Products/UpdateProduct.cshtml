@@ -1,0 +1,93 @@
+﻿@using Entity.Concrete
+@model Product
+@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Ürün Güncelleme Formu</h4>
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Ürün Yönetimi</a></li>
+                    <li class="breadcrumb-item active">Ürün Güncelle</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Ürün Güncelle</h4>
+                <form action="/Products/AddProduct" method="post">
+                    <input type="hidden" name="Id" value="@Model.Id" type="text" class="form-control">
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Ürün İsmi</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="ProductName" value="@Model.ProductName" type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Kategori Seç</label>
+                        <div class="col-lg-10">
+                            @Html.DropDownList("Id",(List<SelectListItem>)ViewBag.CategoryList,"Kategori Seçiniz",new {@name="CategoryId", @class="form-select"})
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Tüketim Miktarı</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="Consume" type="text" value="@Model.Consume" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Uygulama Metodu</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="projectdesc" value="@Model.ConsumeMethod" name="ConsumeMethod" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Ambalajlama</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="Packaging" type="text" value="@Model.Packaging" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Stok Miktarı</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="UnitsInStock" type="text" value="@Model.UnitsInStock" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Birim Fiyat</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="UnitPrice" type="text" value="@Model.UnitPrice" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectbudget" class="col-form-label col-lg-2">Ürün Resmi</label>
+                        <div class="col-lg-10">
+                            <input id="projectbudget" name="projectbudget" type="file" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-lg-10">
+                            <button type="submit" class="btn btn-primary">Ürünü Güncelle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/libs/dropzone/min/dropzone.min.js"></script>

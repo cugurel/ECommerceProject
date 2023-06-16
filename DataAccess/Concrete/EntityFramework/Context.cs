@@ -12,7 +12,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            builder.UseSqlServer("Server=Cagri; Database=Northwind; TrustServerCertificate=True; Trusted_Connection=True;",
+            builder.UseSqlServer("Server=Cagri; Database=Project; TrustServerCertificate=True; Trusted_Connection=True;",
                 builder =>builder.EnableRetryOnFailure());
         }
 

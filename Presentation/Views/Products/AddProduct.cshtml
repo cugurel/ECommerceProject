@@ -1,0 +1,115 @@
+﻿@using Entity.DTOs
+@model IEnumerable<ProductWithCategory>
+@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Yeni Ürün Formu</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Ürün Yönetimi</a></li>
+                    <li class="breadcrumb-item active">Yeni Ürün</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Yeni Ürün Yarat</h4>
+                <form action="/Products/AddProduct" id="myForm" method="post" onsubmit="AddProduct(event)" enctype="multipart/form-data">
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Ürün İsmi</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="ProductName" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Kategori Seç</label>
+                        <div class="col-lg-10">
+                            @Html.DropDownList("CategoryId",(List<SelectListItem>)ViewBag.CategoryList,"Kategori Seçiniz",new {@name="CategoryId", @class="form-select"})
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Tüketim Miktarı</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="Consume" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Uygulama Metodu</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="projectdesc" name="ConsumeMethod" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Ambalajlama</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="projectdesc" name="Packaging" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Stok Miktarı</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="projectdesc" name="UnitsInStock" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectdesc" class="col-form-label col-lg-2">Birim Fiyat</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="projectdesc" name="UnitPrice"/>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <label for="projectbudget" class="col-form-label col-lg-2">Ürün Resmi</label>
+                        <div class="col-lg-10">
+                            <input name="File" type="file" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-lg-10">
+                            <button type="submit" class="btn btn-primary">Ürünü Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function AddProduct(e){
+        e.preventDefault();
+
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false,
+        })
+
+        Swal.fire({
+            title:'Ürünü kaydetmek istiyor musunuz?',
+            icon:'question',
+            showCancelButton:true
+        }).then(result=>{
+            if(result.isConfirmed){
+                const myForm = document.getElementById('myForm');
+                myForm.submit();
+            }
+        })
+    }
+</script>

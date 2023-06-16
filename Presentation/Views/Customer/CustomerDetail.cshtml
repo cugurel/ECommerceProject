@@ -1,0 +1,2515 @@
+﻿@{
+    ViewBag.Title = "Form Wizard";
+    ViewBag.pTitle = "Form Wizard";
+    ViewBag.pageTitle = "Forms";
+    Layout = "~/Views/_Shared/Layouts/_layout_horizontal.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        @*<div class="card">
+        <div class="card-body">
+        <div id="basic-example">
+        <!-- Seller Details -->
+        <h3>Özet</h3>
+        <section>
+        <div class="row">
+        <div class="col-xl-4">
+        <div class="card">
+        <div class="card-body">
+        <h4 class="card-title mb-4">Müşteri Bilgileri</h4>
+        <div class="table-responsive">
+        <table class="table table-nowrap mb-0">
+        <tbody>
+        <tr>
+        <th>Adı Soyadı</th>
+        <td class="text"> Gül Ebru Dilikoğlu</td>
+        </tr>
+        <tr>
+        <th>Hesap Türü :</th>
+        <td>Bireysel</td>
+        </tr>
+        <tr>
+        <th>E-posta :</th>
+        <td>gulebruaslan@yandex.com(Doğrula)</td>
+        </tr>
+        <tr>
+        <th>GSM :</th>
+        <td>+905079820229(Doğrula)</td>
+        </tr>
+        <tr>
+        <th>Sabit Telefon No :</th>
+        <td>04544192520</td>
+        </tr>
+        <tr>
+        <th>Ülke / İl(Şehir) / İlçe</th>
+        <td> Türkiye / Adana / Seyhan </td>
+        </tr>
+        <tr>
+        <th>Hesap Durumu</th>
+        <td><a href="" class="btn btn-success btn-sm">Aktif</a></td>
+        </tr>
+        <tr>
+        <th>Hesap Açılış Tarihi</th>
+        <td>16/06/2022 - 09:57</td>
+        </tr>
+        <tr>
+        <th>Son Giriş Tarihi</th>
+        <td>16/06/2022 - 09:59</td>
+        </tr>
+        <tr>
+        <td><a href="" class="btn btn-outline-primary">Müşteri Paneline Giriş Yap</a></td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-xl-4">
+        <div class="card">
+        <div class="card-body">
+        <h4 class="card-title mb-4">Muhasebe</h4>
+        <div class="table-responsive">
+        <table class="table table-nowrap mb-0">
+        <tbody>
+        <tr>
+        <th scope="row">Ödenmiş</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Ödenmemiş</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">İptal/İade</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Hesap Kredisi</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Vergi Muafiyeti</th>
+        <td>Hayır</td>
+        </tr>
+        <tr>
+        <td><a href="" class="btn btn-outline-primary">Fatura Oluştur</a></td>
+        </tr>
+        <tr>
+        <td><a href="" class="btn btn-outline-primary">Ödenmemiş Fatura Hatırlat</a></td>
+        </tr>
+        <tr>
+        <td><a href="" class="btn btn-outline-primary">Kredi Ekle Çıkar</a></td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-xl-4">
+        <div class="card">
+        <div class="card-body">
+        <h4 class="card-title mb-4">Ürün/Hizmetler</h4>
+        <div class="table-responsive">
+        <table class="table table-nowrap mb-0">
+        <tbody>
+        <tr>
+        <th scope="row">Alan Adı Tescil</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Web Hosting</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Sunucu</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Yazılım</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Sms Paket</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Google Seo Hizmetleri</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">WISECP Lisansları</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Toplusms</th>
+        <td>0</td>
+        </tr>
+        <tr>
+        <th scope="row">Toplam Sipariş Hacmi</th>
+        <td>0 TL</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xl-4">
+        <div class="card">
+        <div class="card-body">
+        <h4 class="card-title mb-4">Müşteri Hakkındaki Notlar</h4>
+        <div class="table-responsive">
+        <textarea id="message" class="form-control" rows="10" placeholder="Müşteri hakkında bilgi ve fikir edinmek için not ekleyin. Bu bilgileri sadece yöneticiler görebilir(Otomatik kayıt edilir.)"></textarea>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-xl-4">
+        <h4 class="card-title mb-4">Diğer İşlemler</h4>
+        <div class="card text-center">
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">Destek Talebi Oluştur</a>
+        </div>
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">Müşteriyi Engelle</a>
+        </div>
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">Tüm Ürün/Hizmetleri Askıya Al</a>
+        </div>
+        <div class="card-body">
+        <a href="" class="btn btn-danger">Müşteri İle İlgili Her Şeyi Sil</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-xl-4">
+        <h4 class="card-title mb-4">Bildirim Gönder</h4>
+        <div class="card text-center">
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">Giriş Bilgilerini Hatırlat</a>
+        </div>
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">SMS Gönder</a>
+        </div>
+        <div class="card-body">
+        <a href="" class="btn btn-outline-primary">E-Posta Gönder</a>
+        </div>
+
+        </div>
+        </div>
+        </div>
+        </section>
+
+        <!-- Company Document -->
+        <h3>Bilgiler</h3>
+        <section>
+        <form>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-pancard-input">Seo Başlık</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Bireysel
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Kurumsal
+        </label>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Adı - Soyadı</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Adı Soyadı">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">TC Kimlik No</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="TC">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Doğum Tarihi</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="date" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">E-Posta</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="E-Posta">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">GSM</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="GSM">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Sabit Telefon No</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Sabit Telefon No">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Bildirim İzinleri</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        E-Posta Bildirim
+        </label>
+        </div>
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        Sms Bildirim
+        </label>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-phoneno-input">Hesap Durumu</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Aktif
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Pasif
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Engellendi
+        </label>
+        </div>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label class="form-label">Müşteri Grubu</label>
+
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <select class="form-control select2">
+        <option>Seçiniz</option>
+        <option value="AK">Bayiler</option>
+        <option value="HI">Müşteriler</option>
+        </select>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label class="form-label">Dil</label>
+
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <select class="form-control select2">
+        <option>Seçiniz</option>
+        <option value="AK">Türkçe(TR)</option>
+        <option value="HI">Worldwide(Eglish)</option>
+        </select>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mb-3">
+                    <label class="form-label">Para Birimi</label>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mb-3">
+                    <select class="form-control select2">
+                        <option>Otomatik Algıla</option>
+                        <option value="AK">Türk Lirası(TRY)</option>
+                        <option value="HI">US Dollar(USD)</option>
+                        <option value="HI">Eur(EUR)</option>
+                        <option value="HI">British Pound(GBP)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                    <label for="basicpill-firstname-input">Vergi Muafiyeti</label>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                    <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                    <label class="form-check-label" for="SwitchCheckSizelg">(Ödemelerde vergi uygulanmaz.)</label>
+                </div>
+
+            </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Asla Askıya Alma</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        Bu müşterinin hizmetlerini asla askıya alma.
+        </label>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Asla İptal Etme</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        Bu müşterinin hizmetlerini asla iptal etme.
+        </label>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Hesap Açılış Tarihi</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+
+        <label class="form-check-label" for="formCheckcolor1">
+        Bu müşterinin hizmetlerini asla iptal etme.
+        </label>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Son Giriş Tarihi</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+
+        <label class="form-check-label" for="formCheckcolor1">
+        Bu müşterinin hizmetlerini asla iptal etme.
+        </label>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Giriş Yaptığı Son IP</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        194.29.214.244
+        <a href="" class="btn btn-primary btn-sm">Giriş(Oturum) Kayıtları</a>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Yeni Parola Belirle</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Değiştirmek istemiyorsanız boş bırakın">
+        </div>
+        <div class="mb-3">
+        <a href="" class="btn btn-primary btn-sm">Güvenli Parola Oluştur</a>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <h3 class="mt-5">Güvenlik</h3>
+        <div class="row mt-5">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Kara Listeye Ekle</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <a href="" class="btn btn-danger btn-sm">Kara Listeye Ekle</a>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+        <label for="basicpill-firstname-input">Proxy/VPN Engeli</label>
+        </div>
+        </div>
+        <div class="col-lg-3">
+        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+        <label for="basicpill-firstname-input">Proxy/VPN Kullanabilir</label>
+        </div>
+        </div>
+        <div class="col-lg-3">
+        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Ödeme Yöntemlerini Engelle</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">T.C No Ayarları</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        T.C Kimlik No Zorunluluğunu Aktif Et
+        </label>
+        </div>
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        T.C Kimlik No Doğruluk Kontrolünü Aktif Et
+        </label>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Doğum Tarihi Ayarları</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        Doğum Tarihi Zorunluluğu Aktif Et
+        </label>
+        </div>
+        <div class="form-check form-check-primary mb-3">
+        <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+        checked>
+        <label class="form-check-label" for="formCheckcolor1">
+        +18 Yaş Kontrolünü Aktif Et
+        </label>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+        <label for="basicpill-firstname-input">Destek Talebi Sınırlandırma</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+        <p>(Mevcut destek talepleri çözümlenmeden yeni talep açamaz.)</p>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+        <label for="basicpill-firstname-input">Destek Talebi Engeli</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+        <p>(Müşteri destek talebi oluşturamaz.)</p>
+        </div>
+
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Güvenlik Sorusu</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Güvenlik Sorusu Cevabı</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <h3 class="mt-5">Özel Alanlar</h3>
+        <div class="row mt-5">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-phoneno-input">Cinsiyetiniz</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Erkek
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Kadın
+        </label>
+        </div>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label class="form-label">Bizi Nereden Duydunuz?</label>
+
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <select class="form-control select2">
+        <option>Seçiniz</option>
+        <option value="AK">Google</option>
+        <option value="HI">R10.net</option>
+        <option value="HI">Diğer</option>
+        </select>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-cstno-input">Notlarım</label>
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        <h3 class="mt-5">Kayıtlı Adresler</h3>
+        <div class="row mt-5">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <a href="" class="btn btn-success">(+) Adres Ekle</a>
+        </div>
+        <div class="mb-3">
+        <p>- Gül Ebru Dilikoğlu (dsdjsdsskjdjdsjdsdsjsjsd 12 / Seyhan / Adana / Türkiye) - 01305 (Varsayılan) </p>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-servicetax-input">
+        </div>
+        </div>
+        </div>
+        </div>
+        </form>
+        </section>
+
+        <h3>Fatura</h3>
+        <section>
+        <div class="card">
+        <div class="card-body">
+
+        <h4 class="card-title">Fatura Listesi</h4>
+
+        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+        <thead>
+        <tr>
+        <th>No</th>
+        <th>Tutar</th>
+        <th>Tarih</th>
+        <th>Kargo</th>
+        <th>Resmiyet</th>
+        <th>Durum</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        <td>Edinburgh</td>
+        <td>61</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        </tr>
+        </tbody>
+        </table>
+        <a href="" class="btn btn-primary">Fatura Oluştur</a>
+        </div>
+        </div>
+        </section>
+        <h3>Sipariş</h3>
+        <section>
+        <div class="card">
+        <div class="card-body">
+        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+        <thead>
+        <tr>
+        <th>Ürün/Hizmet</th>
+        <th>Ürün Grubu</th>
+        <th>Yenilenen/Bitiş</th>
+        <th>Tutar</th>
+        <th>Durum</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        <td>Edinburgh</td>
+        <td>61</td>
+        <td>$320,800</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </section>
+        <h3>Bayilik</h3>
+        <section>
+        <form>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+        <label for="basicpill-firstname-input">Bayilik Aktivasyonu</label>
+        </div>
+        </div>
+        <div class="col-lg-3">
+        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+        </div>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-phoneno-input">Bayilik Şartları</label>
+        </div>
+        <div class="mb-3">
+        <p>Bu özelliği kullandığınızda, bayiniz sadece belirlediğiniz tutar kadar kredi yükleyebilir ve kredisini belirli bir miktarın altına düşürmemelidir. Ödemeler için mevcut kredisini kullanma zorunluluğu da getirebilirsiniz. Geçersiz kılmak için boş bırakınız></p>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="mb-3">
+        <select class="form-control select2">
+        <option>Otomatik Algıla</option>
+        <option value="AK">Türk Lirası(TRY)</option>
+        <option value="HI">US Dollar(USD)</option>
+        <option value="HI">Eur(EUR)</option>
+        <option value="HI">British Pound(GBP)</option>
+        </select>
+        Minimum tutarında kredi yükleyebilir.
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-md-3">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="mb-3">
+        <select class="form-control select2">
+        <option>Otomatik Algıla</option>
+        <option value="AK">Türk Lirası(TRY)</option>
+        <option value="HI">US Dollar(USD)</option>
+        <option value="HI">Eur(EUR)</option>
+        <option value="HI">British Pound(GBP)</option>
+        </select>
+        Tutarın altına kredisi düşmemelidir
+        </div>
+        </div>
+        <div class="col-lg-6">
+
+        </div>
+
+        <div class="col-md-6">
+        <div class="mb-3">
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Varsayılan
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Evet
+        </label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="radio" name="formRadios"
+        id="formRadios1" checked>
+        <label class="form-check-label" for="formRadios1">
+        Hayır
+        </label>
+        </div>
+        <p>Bayi ürün gruplarında ödemeleri sadece mevcut kredisi ile yapabilir.</p>
+        </div>
+        </div>
+        <hr></hr>
+        <div class="row">
+        <div class="col-lg-6">
+        <div class="mb-3">
+        <label for="basicpill-phoneno-input">İndirim Oranları</label>
+        </div>
+        <div class="mb-3">
+        <p>İsteğe bağlı olarak indirim oranlarını bayiye özel ve ürün bazlı tanımlayabilirsiniz. Belirlenen indirim oranları, satın alma ve yenileme işlemlerinde otomatik olarak uygulanır.</p>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="mb-3">
+        <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+        </div>
+        </div>
+        </div>
+        </div>
+        </form>
+        </section>
+        <h3>Satış</h3>
+        <section>
+        <form>
+        <div class="row text-center">
+        <a href="" class="btn btn-success">Satış Ortaklığı Hesabını Etkinleştir</a>
+        </div>
+
+        </form>
+        </section>
+
+        <!-- Bank Details -->
+        <h3>Destek</h3>
+        <section>
+        <div class="card">
+        <div class="card-body">
+        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+        <thead>
+        <tr>
+        <th>Konu</th>
+        <th>Departman</th>
+        <th>Sorumlu</th>
+        <th>Oluşturma Tarihi</th>
+        <th>Yapıldı</th>
+        <th>Durum</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        <td>Edinburgh</td>
+        <td>61</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </section>
+        <h3>Mesaj</h3>
+        <section>
+        <div class="card">
+        <div class="card-body">
+        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+        <thead>
+        <tr>
+        <th>Konu</th>
+        <th>Gönderilme Zamanı</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </section>
+        <h3>Etkinlik</h3>
+        <section>
+        <div class="card">
+        <div class="card-body">
+        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+        <thead>
+        <tr>
+        <th>Açıklama</th>
+        <th>Tarih</th>
+        <th>IP Adresi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        <td>System Architect</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </section>
+        </div>
+
+        </div>
+
+        <!-- end card body -->
+        </div>*@
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Özet</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Bilgiler</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Faturalar</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#order" type="button" role="tab" aria-controls="contact" aria-selected="false">Siparişler</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#branch" type="button" role="tab" aria-controls="contact" aria-selected="false">Bayilik</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#sale" type="button" role="tab" aria-controls="contact" aria-selected="false">Satış Ortaklığı</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="contact" aria-selected="false">Destek Talepleri</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="contact" aria-selected="false">Mesajlar</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#action" type="button" role="tab" aria-controls="contact" aria-selected="false">Etkinlik Kayıtları</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent" style="background-color:white;">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="card" style="height:600px;">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Müşteri Bilgileri</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-nowrap mb-0">
+                                        <tbody>
+                                            <tr>
+                                                <th>Adı Soyadı</th>
+                                                <td class="text"> Gül Ebru Dilikoğlu</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Hesap Türü :</th>
+                                                <td>Bireysel</td>
+                                            </tr>
+                                            <tr>
+                                                <th>E-posta :</th>
+                                                <td>gulebruaslan@yandex.com(Doğrula)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>GSM :</th>
+                                                <td>+905079820229(Doğrula)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Sabit Telefon No :</th>
+                                                <td>04544192520</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Ülke / İl(Şehir) / İlçe</th>
+                                                <td> Türkiye / Adana / Seyhan </td>
+                                            </tr>
+                                            <tr>
+                                                <th>Hesap Durumu</th>
+                                                <td><a href="" class="btn btn-success btn-sm">Aktif</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Hesap Açılış Tarihi</th>
+                                                <td>16/06/2022 - 09:57</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Son Giriş Tarihi</th>
+                                                <td>16/06/2022 - 09:59</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><a href="" style="margin-left:60px;" class="btn btn-outline-primary">Müşteri Paneline Giriş Yap</a></td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                        
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card" style="height:600px;">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Muhasebe</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-nowrap mb-0">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Ödenmiş</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Ödenmemiş</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">İptal/İade</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Hesap Kredisi</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Vergi Muafiyeti</th>
+                                                <td>Hayır</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><a href="" class="btn btn-outline-primary" style="margin-left:60px; width:250px;">Fatura Oluştur</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><a href="" class="btn btn-outline-primary" style="margin-left:60px; width:250px;">Ödenmemiş Fatura Hatırlat</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><a href="" class="btn btn-outline-primary" style="margin-left:60px; width:250px;">Kredi Ekle Çıkar</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card" style="height:600px;">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Ürün/Hizmetler</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-nowrap mb-0">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Alan Adı Tescil</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Web Hosting</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Sunucu</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Yazılım</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Sms Paket</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Google Seo Hizmetleri</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">WISECP Lisansları</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Toplusms</th>
+                                                <td>0</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Toplam Sipariş Hacmi</th>
+                                                <td>0 TL</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="card" style="height:400px;">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Müşteri Hakkındaki Notlar</h4>
+                                <hr></hr>
+                                <div class="table-responsive">
+                                    <textarea id="message" class="form-control" rows="10" placeholder="Müşteri hakkında bilgi ve fikir edinmek için not ekleyin. Bu bilgileri sadece yöneticiler görebilir(Otomatik kayıt edilir.)"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <h4 class="card-title mt-3">Diğer İşlemler</h4>
+                        <hr></hr>
+                        <div class="row text-center">
+                        <div class="container"><a href="" class="btn btn-outline-primary" style="width:250px;">Destek Talebi Oluştur</a></div>
+                        <div class="container mt-2"><a href="" class="btn btn-outline-primary" style="width:250px;">Müşteriyi Engelle</a></div>
+                        <div class="container mt-2"><a href="" class="btn btn-outline-primary" style="width:250px;">Tüm Ürün/Hizmetleri Askıya Al</a></div>
+                        <div class="container mt-2"><a href="" class="btn btn-danger" style="width:250px;">Müşteriyi Her Şeyi İle Sil</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <h4 class="card-title mt-3">Bildirim İşlemleri</h4>
+                        <hr></hr>
+                        <div class="row text-center">
+                        <div class="container"><a href="" class="btn btn-outline-primary" style="width:200px;">Giriş Bilgilerini Hatırlat</a></div>
+                        <div class="container mt-2"><a href="" class="btn btn-outline-primary" style="width:200px;">SMS Gönder</a></div>
+                        <div class="container mt-2"><a href="" class="btn btn-outline-primary" style="width:200px;">E-Posta</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row">
+                    <div class="container">
+                        <form>
+                            <div class="row m-3">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="basicpill-pancard-input">Seo Başlık</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" name="formRadios"
+                                               id="formRadios1" checked>
+                                        <label class="form-check-label" for="formRadios1">
+                                            Bireysel
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" name="formRadios"
+                                               id="formRadios1" checked>
+                                        <label class="form-check-label" for="formRadios1">
+                                            Kurumsal
+                                        </label>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Adı - Soyadı</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Adı Soyadı">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">TC Kimlik No</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="TC">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Doğum Tarihi</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="date" class="form-control" id="basicpill-servicetax-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">E-Posta</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="E-Posta">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">GSM</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="GSM">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Sabit Telefon No</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Sabit Telefon No">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Bildirim İzinleri</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                   checked>
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                E-Posta Bildirim
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-primary mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                   checked>
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                Sms Bildirim
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-phoneno-input">Hesap Durumu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                       id="formRadios1" checked>
+                                                <label class="form-check-label" for="formRadios1">
+                                                    Aktif
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                       id="formRadios1" checked>
+                                                <label class="form-check-label" for="formRadios1">
+                                                    Pasif
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                       id="formRadios1" checked>
+                                                <label class="form-check-label" for="formRadios1">
+                                                    Engellendi
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Müşteri Grubu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <select class="form-control select2">
+                                                <option>Seçiniz</option>
+                                                <option value="AK">Bayiler</option>
+                                                <option value="HI">Müşteriler</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Dil</label>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <select class="form-control select2">
+                                                <option>Seçiniz</option>
+                                                <option value="AK">Türkçe(TR)</option>
+                                                <option value="HI">Worldwide(Eglish)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Para Birimi</label>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <select class="form-control select2">
+                                                <option>Otomatik Algıla</option>
+                                                <option value="AK">Türk Lirası(TRY)</option>
+                                                <option value="HI">US Dollar(USD)</option>
+                                                <option value="HI">Eur(EUR)</option>
+                                                <option value="HI">British Pound(GBP)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                            <label for="basicpill-firstname-input">Vergi Muafiyeti</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <label class="form-check-label" for="SwitchCheckSizelg">(Ödemelerde vergi uygulanmaz.)</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Asla Askıya Alma</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                   checked>
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                Bu müşterinin hizmetlerini asla askıya alma.
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Asla İptal Etme</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                   checked>
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                Bu müşterinin hizmetlerini asla iptal etme.
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Hesap Açılış Tarihi</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                Bu müşterinin hizmetlerini asla iptal etme.
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Son Giriş Tarihi</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+
+                                            <label class="form-check-label" for="formCheckcolor1">
+                                                Bu müşterinin hizmetlerini asla iptal etme.
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Giriş Yaptığı Son IP</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-primary mb-3">
+                                            194.29.214.244
+                                            <a href="" class="btn btn-primary btn-sm">Giriş(Oturum) Kayıtları</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-cstno-input">Yeni Parola Belirle</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-servicetax-input" placeholder="Değiştirmek istemiyorsanız boş bırakın">
+                                        </div>
+                                        <div class="mb-3">
+                                            <a href="" class="btn btn-primary btn-sm">Güvenli Parola Oluştur</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<hr></hr>
+                                <h3 class="mt-5">Güvenlik</h3>
+                                <div class="row mt-5">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Kara Listeye Ekle</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <a href="" class="btn btn-danger btn-sm">Kara Listeye Ekle</a>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Proxy/VPN Engeli</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-3">
+                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Proxy/VPN Kullanabilir</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-3">
+                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                </div>
+
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Ödeme Yöntemlerini Engelle</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">T.C No Ayarları</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="form-check form-check-primary mb-3">
+                                <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                checked>
+                                <label class="form-check-label" for="formCheckcolor1">
+                                T.C Kimlik No Zorunluluğunu Aktif Et
+                                </label>
+                                </div>
+                                <div class="form-check form-check-primary mb-3">
+                                <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                checked>
+                                <label class="form-check-label" for="formCheckcolor1">
+                                T.C Kimlik No Doğruluk Kontrolünü Aktif Et
+                                </label>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Doğum Tarihi Ayarları</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="form-check form-check-primary mb-3">
+                                <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                checked>
+                                <label class="form-check-label" for="formCheckcolor1">
+                                Doğum Tarihi Zorunluluğu Aktif Et
+                                </label>
+                                </div>
+                                <div class="form-check form-check-primary mb-3">
+                                <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                checked>
+                                <label class="form-check-label" for="formCheckcolor1">
+                                +18 Yaş Kontrolünü Aktif Et
+                                </label>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Destek Talebi Sınırlandırma</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                <p>(Mevcut destek talepleri çözümlenmeden yeni talep açamaz.)</p>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Destek Talebi Engeli</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                <p>(Müşteri destek talebi oluşturamaz.)</p>
+                                </div>
+
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Güvenlik Sorusu</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Güvenlik Sorusu Cevabı</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <h3 class="mt-5">Özel Alanlar</h3>
+                                <div class="row mt-5">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-phoneno-input">Cinsiyetiniz</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="formRadios"
+                                id="formRadios1" checked>
+                                <label class="form-check-label" for="formRadios1">
+                                Erkek
+                                </label>
+                                </div>
+                                <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="formRadios"
+                                id="formRadios1" checked>
+                                <label class="form-check-label" for="formRadios1">
+                                Kadın
+                                </label>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label class="form-label">Bizi Nereden Duydunuz?</label>
+
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <select class="form-control select2">
+                                <option>Seçiniz</option>
+                                <option value="AK">Google</option>
+                                <option value="HI">R10.net</option>
+                                <option value="HI">Diğer</option>
+                                </select>
+                                </div>
+                                </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <label for="basicpill-cstno-input">Notlarım</label>
+                                </div>
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>
+                                <h3 class="mt-5">Kayıtlı Adresler</h3>
+                                <div class="row mt-5">
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <a href="" class="btn btn-success">(+) Adres Ekle</a>
+                                </div>
+                                <div class="mb-3">
+                                <p>- Gül Ebru Dilikoğlu (dsdjsdsskjdjdsjdsdsjsjsd 12 / Seyhan / Adana / Türkiye) - 01305 (Varsayılan) </p>
+                                </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                </div>
+                                </div>
+                                </div>*@
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item  mt-5">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                Güvenlik
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="accordion-body">
+                                        <div class="row mt-5">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Kara Listeye Ekle</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <a href="" class="btn btn-danger btn-sm">Kara Listeye Ekle</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                                    <label for="basicpill-firstname-input">Proxy/VPN Engeli</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                                    <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                                    <label for="basicpill-firstname-input">Proxy/VPN Kullanabilir</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                                    <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Ödeme Yöntemlerini Engelle</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">T.C No Ayarları</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-check form-check-primary mb-3">
+                                                    <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                           checked>
+                                                    <label class="form-check-label" for="formCheckcolor1">
+                                                        T.C Kimlik No Zorunluluğunu Aktif Et
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-primary mb-3">
+                                                    <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                           checked>
+                                                    <label class="form-check-label" for="formCheckcolor1">
+                                                        T.C Kimlik No Doğruluk Kontrolünü Aktif Et
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Doğum Tarihi Ayarları</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-check form-check-primary mb-3">
+                                                    <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                           checked>
+                                                    <label class="form-check-label" for="formCheckcolor1">
+                                                        Doğum Tarihi Zorunluluğu Aktif Et
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-primary mb-3">
+                                                    <input class="form-check-input" type="checkbox" id="formCheckcolor1"
+                                                           checked>
+                                                    <label class="form-check-label" for="formCheckcolor1">
+                                                        +18 Yaş Kontrolünü Aktif Et
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                                    <label for="basicpill-firstname-input">Destek Talebi Sınırlandırma</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                                    <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                                    <p>(Mevcut destek talepleri çözümlenmeden yeni talep açamaz.)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                                    <label for="basicpill-firstname-input">Destek Talebi Engeli</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                                    <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                                    <p>(Müşteri destek talebi oluşturamaz.)</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Güvenlik Sorusu</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Güvenlik Sorusu Cevabı</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Özel Alanlar
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="accordion-body">
+                                        <div class="row mt-5">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Evrak Doğrulamaya Zorla</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-phoneno-input">Cinsiyetiniz</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <div class="form-check mb-3">
+                                                        <input class="form-check-input" type="radio" name="formRadios"
+                                                               id="formRadios1" checked>
+                                                        <label class="form-check-label" for="formRadios1">
+                                                            Erkek
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check mb-3">
+                                                        <input class="form-check-input" type="radio" name="formRadios"
+                                                               id="formRadios1" checked>
+                                                        <label class="form-check-label" for="formRadios1">
+                                                            Kadın
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Bizi Nereden Duydunuz?</label>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <select class="form-control select2">
+                                                        <option>Seçiniz</option>
+                                                        <option value="AK">Google</option>
+                                                        <option value="HI">R10.net</option>
+                                                        <option value="HI">Diğer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr></hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="basicpill-cstno-input">Notlarım</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Kayıtlı Adresler
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="accordion-body">
+                                        <div class="row mt-5">
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <a href="" class="btn btn-success">(+) Adres Ekle</a>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <p>- Gül Ebru Dilikoğlu (dsdjsdsskjdjdsjdsdsjsjsd 12 / Seyhan / Adana / Türkiye) - 01305 (Varsayılan) </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container">
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100 mt-5">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Tutar</th>
+                                    <th>Tarih</th>
+                                    <th>Kargo</th>
+                                    <th>Resmiyet</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011/04/25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="" class="btn btn-primary mb-3">Fatura Oluştur</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container">
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100 mt-5">
+                            <thead>
+                                <tr>
+                                    <th>Ürün/Hizmet</th>
+                                    <th>Ürün Grubu</th>
+                                    <th>Yenilenen/Bitiş</th>
+                                    <th>Tutar</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>$320,800</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="branch" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container mt-5">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                        <label for="basicpill-firstname-input">Bayilik Aktivasyonu</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="basicpill-phoneno-input">Bayilik Şartları</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Bu özelliği kullandığınızda, bayiniz sadece belirlediğiniz tutar kadar kredi yükleyebilir ve kredisini belirli bir miktarın altına düşürmemelidir. Ödemeler için mevcut kredisini kullanma zorunluluğu da getirebilirsiniz. Geçersiz kılmak için boş bırakınız></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3">
+                                        <select class="form-control select2">
+                                            <option>Otomatik Algıla</option>
+                                            <option value="AK">Türk Lirası(TRY)</option>
+                                            <option value="HI">US Dollar(USD)</option>
+                                            <option value="HI">Eur(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        Minimum tutarında kredi yükleyebilir.
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3">
+                                        <select class="form-control select2">
+                                            <option>Otomatik Algıla</option>
+                                            <option value="AK">Türk Lirası(TRY)</option>
+                                            <option value="HI">US Dollar(USD)</option>
+                                            <option value="HI">Eur(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        Tutarın altına kredisi düşmemelidir
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Varsayılan
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Evet
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Hayır
+                                            </label>
+                                        </div>
+                                        <p>Bayi ürün gruplarında ödemeleri sadece mevcut kredisi ile yapabilir.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-phoneno-input">İndirim Oranları</label>
+                                        </div>
+                                        <div class="mb-3">
+                                            <p>İsteğe bağlı olarak indirim oranlarını bayiye özel ve ürün bazlı tanımlayabilirsiniz. Belirlenen indirim oranları, satın alma ve yenileme işlemlerinde otomatik olarak uygulanır.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="basicpill-cstno-input" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade" id="sale" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container mt-5">
+                        <form>
+                            <div class="row text-center">
+                                <a href="" class="btn btn-success">Satış Ortaklığı Hesabını Etkinleştir</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container mt-5">
+                        <a href="" class="btn btn-primary">Destek Talebi Oluştur</a>
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100 mt-5">
+                            <thead>
+                                <tr>
+                                    <th>Konu</th>
+                                    <th>Departman</th>
+                                    <th>Sorumlu</th>
+                                    <th>Oluşturma Tarihi</th>
+                                    <th>Yapıldı</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011/04/25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container mt-5">
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+                            <thead>
+                                <tr>
+                                    <th>Konu</th>
+                                    <th>Gönderilme Zamanı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="action" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="container mt-5">
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+                            <thead>
+                                <tr>
+                                    <th>Açıklama</th>
+                                    <th>Tarih</th>
+                                    <th>IP Adresi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>System Architect</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- end row -->
+<!-- end row -->
+<!-- JAVASCRIPT -->
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- jquery step -->
+<script src="~/assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
+
+<!-- form wizard init -->
+<script src="~/assets/js/pages/form-wizard.init.js"></script>
+
+<script src="~/assets/js/app.js"></script>
+
+

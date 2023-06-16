@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Yeni Kategori Formu</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Ürün Yönetimi</a></li>
+                    <li class="breadcrumb-item active">Yeni Kategori</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Yeni Kategori Yarat</h4>
+                <form action="/Categories/AddCategory" method="post">
+                    <div class="row mb-4">
+                        <label for="projectname" class="col-form-label col-lg-2">Kategori İsmi</label>
+                        <div class="col-lg-10">
+                            <input id="projectname" name="CategoryName" type="text" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="row justify-content-end">
+                        <div class="col-lg-10">
+                            <button type="submit" class="btn btn-primary">Kategori Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/libs/dropzone/min/dropzone.min.js"></script>

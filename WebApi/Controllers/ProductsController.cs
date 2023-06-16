@@ -30,6 +30,19 @@ namespace WebApi.Controllers
         }
 
 
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int id)
+        {
+            var result = _productService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result.Message);
+        }
+
+
         [HttpGet("getbycategoryid")]
         public IActionResult Get(int id)
         {

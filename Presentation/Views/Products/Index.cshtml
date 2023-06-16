@@ -1,0 +1,81 @@
+﻿@using Entity.DTOs
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common;
+@model IPagedList<ProductWithCategory>
+@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Stoktaki Aktif Ürünler</h4><a href="/Products/AddProduct" class="btn btn-outline-primary btn-sm">Yeni Ürün Ekle</a>
+                <div class="table-responsive mt-2">
+                    <table class="table align-middle table-nowrap mb-2">
+                        <thead class="table-light">
+                            <tr>
+
+                                <th class="align-middle">Ürün Adı</th>
+                                <th class="align-middle">Kategori</th>
+                                <th class="align-middle">Stok Miktarı</th>
+                                <th class="align-middle">Birim Fiyat</th>
+                                <th class="align-middle">Düzenle</th>
+                                <th class="align-middle">Sil</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td><a href="javascript: void(0);" class="text-body fw-bold">@item.ProductName</a> </td>
+                                    <td>
+                                        <span class="badge badge-pill badge-soft-success font-size-11">@item.CategoryName</span>
+                                    </td>
+                                    <td>
+                                        @item.UnitsInStock
+                                    </td>
+                                    <td>
+                                        @item.UnitPrice
+                                    </td>
+                                    <td>
+                                        <a href="/Products/UpdateProduct/@item.ProductId" class="btn btn-sm btn-success">Düzenle</a>
+                                    </td>
+                                    <td>
+                                        <a href="/Products/DeleteProduct/@item.ProductId" class="btn btn-sm btn-danger">Sil</a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                    @Html.PagedListPager((IPagedList)Model, page=>Url.Action("Index",new {page}),new PagedListRenderOptions {
+                    LiElementClasses = new string[] { "page-item" },
+                    PageClasses = new string[] { "page-link" }
+                    })
+                </div>
+                <!-- end table-responsive -->
+            </div>
+        </div>
+    </div>
+
+</div>
+<
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- apexcharts -->
+<script src="~/assets/libs/apexcharts/apexcharts.min.js"></script>
+
+<script src="~/assets/js/pages/dashboard.init.js"></script>
+
+<script src="~/assets/js/app.js"></script>
+

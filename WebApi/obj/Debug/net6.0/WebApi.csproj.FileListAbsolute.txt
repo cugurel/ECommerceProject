@@ -85,3 +85,7 @@ C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Business.pdb
 C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Entity.pdb
 C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Core.pdb
 C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Autofac.dll
+C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\cagri\source\repos\Solution\WebApi\bin\Debug\net6.0\Castle.Core.dll

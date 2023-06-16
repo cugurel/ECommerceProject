@@ -3,6 +3,7 @@ using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
+using Entity.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,13 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
 
+        
+        public IResult Delete(Product product)
+        {
+            _productDal.Delete(product);
+            return new SuccessResult(Messages.ProductAdded);
+        }
+
         public IDataResult<List<Product>> GetAll()
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);
@@ -34,6 +42,27 @@ namespace Business.Concrete
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.CategoryId == id));
+        }
+
+        public IDataResult<List<ProductWithCategory>> GetAllWithCategoryName()
+        {
+            return new SuccessDataResult<List<ProductWithCategory>>(_productDal.GetProductWithCategoryName());
+        }
+
+        public IDataResult<Product> GetById(int id)
+        {
+            return new SuccessDataResult<Product>(_productDal.Get(x=>x.Id == id));
+        }
+
+        public IDataResult<ProductDetailDto> GetProductDetail(int id)
+        {
+            return new SuccessDataResult<ProductDetailDto>(_productDal.GetProuctDetail(id));
+        }
+
+        public IResult Update(Product product)
+        {
+            _productDal.Update(product);
+            return new SuccessResult(Messages.ProductUpdated);
         }
     }
 }
