@@ -1,0 +1,92 @@
+﻿@using Entity.Concrete
+@model Category
+
+@{
+    ViewBag.Title = "Add Product";
+    ViewBag.pTitle = "Add Product";
+    ViewBag.pageTitle = "Ecommerce";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title">Kategori Bilgileri</h4>
+                <p class="card-title-desc">Kategori bilgilerini formdan doldurabilirsiniz</p>
+
+                <form action="/Category/UpdateCategory" id="myForm" method="post" onsubmit="AddProduct(event)" enctype="multipart/form-data">
+                    <div class="row">
+                        <input id="productname" name="Id" value="@Model.Id" type="hidden" class="form-control">
+                        <div class="col-sm-12">
+                            <div class="mb-3">
+                                <label for="productname">Kategori İsmi</label>
+                                <input id="productname" name="CategoryName" value="@Model.CategoryName" type="text" class="form-control">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-2">
+                        <button type="submit" class="btn btn-primary waves-effect waves-light">Kategoriyi Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function AddProduct(e) {
+        e.preventDefault();
+
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false,
+        })
+
+        Swal.fire({
+            title: 'Kategoriyi güncellemek istiyor musunuz?',
+            icon: 'question',
+            showCancelButton: true
+        }).then(result => {
+            if (result.isConfirmed) {
+                const myForm = document.getElementById('myForm');
+                myForm.submit();
+            }
+        })
+    }
+</script>
+<!-- end row -->
+<!-- JAVASCRIPT -->
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- select 2 plugin -->
+<script src="~/assets/libs/select2/js/select2.min.js"></script>
+
+<!-- dropzone plugin -->
+<script src="~/assets/libs/dropzone/min/dropzone.min.js"></script>
+
+<!-- init js -->
+<script src="~/assets/js/pages/ecommerce-select2.init.js"></script>
+
+<!-- App js -->
+<script src="~/assets/js/app.js"></script>
+
+
+
+

@@ -1,0 +1,1361 @@
+﻿@{
+    ViewBag.Title = "Form Wizard";
+    ViewBag.pTitle = "Form Wizard";
+    ViewBag.pageTitle = "Forms";
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Ödeme Yöntemleri</h4>
+                <div id="vertical-example" class="vertical-wizard">
+                    <h3>Varsayılan Aktif Modül Ayarları</h3>
+                    <section>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-firstname-input">Aktif Çalışacak Modülleri Seçiniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <select class="form-control select2">
+                                            <option>Select</option>
+                                            <option value="AK">Iyzico</option>
+                                            <option value="HI">Shopier</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-firstname-input">Kart Saklama Modülü</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <select class="form-control select2">
+                                            <option>Select</option>
+                                            <option value="AK">Yok</option>
+                                            <option value="HI">PayTR</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                    <h3>Banka Havale / EFT</h3>
+                    <section>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="basicpill-companyuin-input">Durum</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                        <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-cstno-input">Banka Adı</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-servicetax-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-companyuin-input">Swift Kodu(BIC)</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-Declaration-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="basicpill-companyuin-input">IBAN No</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-servicetax-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-cstno-input">Hesap No</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-servicetax-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-companyuin-input">Alıcı Bilgisi</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-Declaration-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-companyuin-input">Şube Adı/Kodu</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="verticalnav-Declaration-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="verticalnav-companyuin-input">Banka Logo</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="file" class="form-control" id="verticalnav-Declaration-input">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- Bank Details -->
+                    <h3>Hesap Kredisi</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Durum</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <p>Hesap kredisi kullanımını aktif et.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Minimum Yüklenecek Tutar</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" id="verticalnav-card-verification-input" placeholder="Minimum Yüklenecek Tutar">
+                                        <select class="form-control select2">
+                                            <br></br>
+                                            <option>Select</option>
+                                            <option value="AK">Türk Lirası</option>
+                                            <option value="HI">US Dollar</option>
+                                            <option value="HI">Euro(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        <p>Hesap bakiyesine standart olarak minimum yüklenebilecek tutarı belirleyebilirsiniz.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Otomatik Ödeme Talimatı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <p>Müşteriler oluşan faturaları için kredi bakiyelerinden otomatik ödeme talimatı verebilirler.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+
+                    <h3>PayPal</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Mağaza E-Posta</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input" placeholder="Paypal hesabınızın e-posta adresini giriniz.">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input" placeholder="Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Para Birimi Dönüştürme</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <select class="form-control select2">
+                                            <br></br>
+                                            <option>Select</option>
+                                            <option value="AK">Türk Lirası</option>
+                                            <option value="HI">US Dollar</option>
+                                            <option value="HI">Euro(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        <p>Tüm ödemeler seçilen para birimine dönüştürülerek ödeme aracına iletilir.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Notify URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/PayPal/bd8ee63008f94092caf4de5cae967fcc/callback</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Success URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/basarili</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Failed URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/basarisiz</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Aboneliği Etkinleştir</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <p>Yinelenen (abonelik) ödemeleri almayı etkinleştirin.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-companyuin-input">Client ID</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-Declaration-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-companyuin-input">Client Secret</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-Declaration-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-companyuin-input">Aboneliği Zorla</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-info mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor3"
+                                                   checked>
+                                            <label class="form-check-label" for="formCheckcolor3">
+                                                Paypal ile tek sefer ödeme yapılamaz. Paypal ile sadece abonelik ile ödeme yapılabilir.
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-companyuin-input">Sandbox</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-check-info mb-3">
+                                            <input class="form-check-input" type="checkbox" id="formCheckcolor3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                    <h3>CoinPayments</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant ID</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">IPN Secret</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">E-Posta</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Gönderim bilgilerini de dahil et</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                        <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                    <h3>2Checkout</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Account ID</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Secret Word</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Hesabım > Site Yönetimi > Ödeme Seçeneklerinde bulabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Demo Modu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <p>Aktif ettiğiniz taktirde kredi kartı bilgilerini girmeden ödeme yapabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Sandbox Modu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                            <p>Aktif edildiğinde istekler sandbox üzerinden gerçekleşir.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                        <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Approved URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <p style="color:red">https://finkcell.com/odeme/TCO/34b52ab260fb086dbb1e6ad17fb1e378/callback</p>
+                                            <p>Bu bilgiyi Hesabım > Site Yönetimi > Ödeme Seçeneklerinde bulunan "Onaylanan URL" bölümüne yazınız. Ayrıca Direkt Dönüş alanını "Header Redirect (Your URL)" olarak belirleyiniz. Aksi halde ödemeler sistem tarafında işlenemez.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                    <h3>Stripe Payment Intents</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Kullanım Modu</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Canlı Modu
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Test Modu
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Live Publishable Key</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                        <p>Api Anahtarları ile ilgili bilgileri Developers > API keys bölümünden temin edebilirsiniz.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Live Secret Key</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                        <p>Api Anahtarları ile ilgili bilgileri Developers > API keys bölümünden temin edebilirsiniz.</p>
+                                    </div>
+                                </div>
+
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Webhook</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                        <p> Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+                    <h3>Skrill</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">E-Posta Adresi</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Skrill hesabınızın e-posta adresi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Secret Word</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+                    <h3>PerfectMoney</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Account ID</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Ör: U12345678</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Değişimli İfade</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Ayarlar > "Değişimli ifade" alanında bulunan "generate" düğmesine basarak oluşan değeri bu alana giriniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">PerfectMoney Para Birimi</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <select class="form-control select2">
+                                            <option>Select</option>
+                                            <option value="AK">Türk Lirası</option>
+                                            <option value="HI">US Dollar</option>
+                                            <option value="HI">Euro(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        <p>Lütfen PerfectMoney hesabınızda kayıtlı para biriminizi tanımlayın.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>PayTR</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Ödeme Türü</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Iframe
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Direkt
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant ID</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant Salt</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Kart Saklama</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Müşterileriniz hızlı işlem için kart bilgilerini güvenli bir şekilde kaydeder.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Abonelik (Otomatik Ödemeler)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Müşterilerinizden otomatik ödeme talimatları almak için aktif ediniz.</p>
+                                        <p style="color:red">(Bu özelliği kullanabilmek için mağazanızın 2D yetkisine sahip olması gerekmektedir.)</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Taksit Seçenekleri</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Taksit uygulamak istiyorsanız aktif ediniz.</p>
+                                        <select class="form-control select2">
+                                            <option>Select</option>
+                                            <option value="AK">Türk Lirası</option>
+                                            <option value="HI">US Dollar</option>
+                                            <option value="HI">Euro(EUR)</option>
+                                            <option value="HI">British Pound(GBP)</option>
+                                        </select>
+                                        <p>Maksimum kaç taksit yapılabileceğini seçiniz.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Test Modu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Test modunda çalıştırmak için aktif ediniz.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Abonelik (Otomatik Ödemeler)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Hata mesajlarının görünmesini isterseniz aktif ediniz.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Notify URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p style="color:red">https://finkcell.com/odeme/PayTR/12f47e480c83c794d1a4de63eb22bc55/callback</p>
+                                        <p>Bu bilgiyi PayTR ayarlar sayfasındaki Bildirim URL alanına kopyalayıp yapıştırınız. Aksi halde ödemeler sistem tarafında işlenemez.</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>Banka Havale/EFT(PayTR)</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant ID</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Merchant Salt</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi PayTR mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input" placeholder="Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Test Modu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Müşterileriniz hızlı işlem için kart bilgilerini güvenli bir şekilde kaydeder.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="basicpill-companyuin-input">Hata Ayıklama Modu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                            <input class="form-check-input" type="checkbox" id="SwitchCheckSizelg" checked>
+                                        </div>
+                                        <p>Müşterileriniz hızlı işlem için kart bilgilerini güvenli bir şekilde kaydeder.</p>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Notify URL</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/PayTR_BankTransfer/cfe2255ecfd96439307df0acc1b6bc10/callback</label>
+                                            <p>Bu bilgiyi PayTR ayarlar sayfasındaki Bildirim URL alanına kopyalayıp yapıştırınız. Aksi halde ödemeler sistem tarafında işlenemez.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>Paywant(Ortak Ödeme)</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Api Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Api Secret Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Komisyon Türü</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1">
+                                            <label class="form-check-label" for="formRadios1">
+                                                Üstlen
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="formRadios"
+                                                   id="formRadios1" checked>
+                                            <label class="form-check-label" for="formRadios1">
+                                                Yansıt
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Çarpanı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyonun tamamını yansıtmak için çarpan giriniz. Yoksa 0 yazınız.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Geri Dönüş URL</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/Paywant/e7d19b707e01c0360ed169b73306c74a/callback</label>
+                                            <p>Bu bilgiyi Paywant mağazanıdaki geri dönüş alanına yazınız.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>Shopier</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Api Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Api Secret</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Komisyon Oranı</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyonun tamamını yansıtmak için çarpan giriniz. Yoksa 0 yazınız.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-namecard-input">Geri Dönüş URL</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="form-check mb-3">
+                                            <label for="verticalnav-card-verification-input">https://finkcell.com/odeme/Paywant/e7d19b707e01c0360ed169b73306c74a/callback</label>
+                                            <p>Bu bilgiyi Shopier Özelleştirmeler > Api Erişimi sayfasındaki Geri dönüş URL (1) alanına kopyalayıp yapıştırınız. Aksi halde ödemeler sistem tarafında işlenemez.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>RavePay</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Public Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Paywant panelinizdeki Mağazalarım bölümünden alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Secret Key</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <h3>Iyzico</h3>
+                    <section>
+                        <div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Api Key</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Iyzico mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Secret Key</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Bu bilgiyi Iyzico mağaza ayarları sayfasından alabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="verticalnav-cardno-input">Komisyon Oranı(%)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="verticalnav-card-verification-input">
+                                            <p>Komisyon ücreti yansıtmak % değer giriniz. (Geçersiz kılmak için boş bırakınız.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                    <!-- Confirm Details -->
+                    <h3>Confirm Detail</h3>
+                    <section>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="text-center">
+                                    <div class="mb-4">
+                                        <i class="mdi mdi-check-circle-outline text-success display-4"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Confirm Detail</h5>
+                                        <p class="text-muted">If several languages coalesce, the grammar of the resulting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+</div>
+<!-- end row -->
+<!-- JAVASCRIPT -->
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- jquery step -->
+<script src="~/assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
+
+<!-- form wizard init -->
+<script src="~/assets/js/pages/form-wizard.init.js"></script>
+
+<script src="~/assets/js/app.js"></script>
+
+

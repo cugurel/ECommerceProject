@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Form Layouts";
+    ViewBag.pTitle = "Form Layouts";
+    ViewBag.pageTitle = "Forms";
+    Layout = "~/Views/_Shared/Layouts/_layout_horizontal.cshtml";
+}
+
+<div class="row">
+    <div class="col-xl-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Form Grid Layout</h4>
+
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Vergi Muafiyeti</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="basicpill-servicetax-input">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr></hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Ödeme Durumu</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="formRadios"
+                                       id="formRadios1" checked>
+                                <label class="form-check-label" for="formRadios1">
+                                    Ödendi
+                                </label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="formRadios"
+                                       id="formRadios1" checked>
+                                <label class="form-check-label" for="formRadios1">
+                                    Ödenmedi
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr></hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Oluşturma Tarihi</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <input type="date" class="form-control" id="basicpill-servicetax-input">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr></hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Son Ödeme Tarihi</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <input type="date" class="form-control" id="basicpill-servicetax-input">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr></hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3 center" style="display: inline-block; text-align: left;">
+                                <label for="basicpill-firstname-input">Vergilendirme Türü</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="basicpill-firstname-input">Vergiler Hariç</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr></hr>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Para Birimi</label>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <select class="form-control select2">
+                                    <option>Otomatik Algıla</option>
+                                    <option value="AK">Türk Lirası(TRY)</option>
+                                    <option value="HI">US Dollar(USD)</option>
+                                    <option value="HI">Eur(EUR)</option>
+                                    <option value="HI">British Pound(GBP)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100 mt-5">
+                            <thead>
+                                <tr>
+                                    <th>Seç</th>
+                                    <th>Vergisiz</th>
+                                    <th>Açıklama</th>
+                                    <th>Tutar</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td><a href="" class="btn btn-danger btn-sm">Sil</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary w-md">Kaydet</button>
+                    </div>
+                </form>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+
+</div>
+
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<script src="~/assets/js/app.js"></script>
+
+
+

@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_horizontal.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <h4>Hatırlatmalar</h4>
+
+            <div class="alert alert-success mt-2" role="alert">
+                Herhangi bir konuda, belirleyeceğiniz tarihte veya her ayın aynı günü ya da her gün aynı saatte, bir hatırlatma planlayarak, sistemin size e-posta veya sms yolu ile bildirim yapmasını sağlayabilirsiniz. Bu sayede ileri bir tarihte yapmanız gereken bir işlem veya olay hakkında bilgi sahibi olabilir ve işleminizi zamanında gerçekleştirebilirsiniz. Hatırlatıcı, bildirim şablonları üzerinden işlem görür ve isteğe bağlı olarak e-posta veya sms seçeneğini aktif/pasif edebilirsiniz.
+            </div>
+            
+            
+            <hr>
+        </div>
+
+        <div class="tab-content" id="myTabContent" style="background-color:white;">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="mb-3">
+                                    <a href="" class="btn btn-success">+ Yeni Hatırlatma Oluştur</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="mb-3">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mb-3">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Ara"></input>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table table-bordered dt-responsive nowrap w-100">
+                            <thead>
+                                <tr>
+                                    <th>Hatırlatma Metni</th>
+                                    <th>Oluşturma Tarihi</th>
+                                    <th>Periyot</th>
+                                    <th>Durum</th>
+                                    <th>Detay</th>
+                                    <th>Sil</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td><a href="" class="btn btn-success">Detay</a></td>
+                                    <td><a href="" class="btn btn-danger">Sil</a></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> <!-- end col -->
+    </div>
+</div>
+
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- Required datatable js -->
+<script src="~/assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="~/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+<!-- Buttons examples -->
+<script src="~/assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script src="~/assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+<script src="~/assets/libs/jszip/jszip.min.js"></script>
+<script src="~/assets/libs/pdfmake/build/pdfmake.min.js"></script>
+<script src="~/assets/libs/pdfmake/build/vfs_fonts.js"></script>
+<script src="~/assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script src="~/assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script src="~/assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+
+<!-- Responsive examples -->
+<script src="~/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="~/assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+<!-- Datatable init js -->
+<script src="~/assets/js/pages/datatables.init.js"></script>
+
+<script src="~/assets/js/app.js"></script>
+

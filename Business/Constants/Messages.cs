@@ -17,5 +17,9 @@ namespace Business.Constants
         public static string ProductUpdated = "Ürün bilgileri güncellendi.";
         public static string CategoryDeleted = "Kategori silindi.";
         public static string CategoryUpdated = "Kategori bilgileri güncellendi.";
+        public static string ColorAdded = "Renk eklendi.";
+        public static string ColorListed = "Renk eklendi.";
+        public static string ColorDeleted = "Renk silindi.";
+        public static string ColorUpdated = "Renk güncellendi.";
     }
 }

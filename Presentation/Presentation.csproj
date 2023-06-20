@@ -17,6 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\adminlte\.github\codeql\codeql-config.yml" />
+    <None Include="wwwroot\adminlte\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\adminlte\.github\dependabot.yml" />
+    <None Include="wwwroot\adminlte\.github\ISSUE_TEMPLATE\bug-report-for-adminlte-v3.1-x.md" />
+    <None Include="wwwroot\adminlte\.github\ISSUE_TEMPLATE\feature-request-for-adminlte-v4-x.md" />
+    <None Include="wwwroot\adminlte\.github\workflows\ci.yml" />
+    <None Include="wwwroot\adminlte\.github\workflows\codeql.yml" />
+    <None Include="wwwroot\adminlte\.github\workflows\docs.yml" />
+    <None Include="wwwroot\adminlte\.github\workflows\lint.yml" />
     <None Include="wwwroot\assets\libs\datatables.net-autofill\node_modules\datatables.net\js\jquery.dataTables.min.js" />
     <None Include="wwwroot\assets\libs\datatables.net-bs4\node_modules\datatables.net\js\jquery.dataTables.min.js" />
     <None Include="wwwroot\assets\libs\datatables.net-buttons\node_modules\datatables.net\js\jquery.dataTables.min.js" />
@@ -122,7 +131,7 @@
     <Folder Include="wwwroot\assets\libs\twitter-bootstrap-wizard\bootstrap\img\" />
     <Folder Include="wwwroot\assets\libs\twitter-bootstrap-wizard\bootstrap\js\" />
     <Folder Include="wwwroot\assets\libs\twitter-bootstrap-wizard\examples\" />
-    <Folder Include="wwwroot\Files\" />
+    <Folder Include="wwwroot\Files\ColorImages\" />
     <Folder Include="wwwroot\Files\ProductImages\" />
   </ItemGroup>
 

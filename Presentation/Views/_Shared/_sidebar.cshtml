@@ -3,40 +3,40 @@
 
     <div data-simplebar class="h-100">
 
-        <!--- Sidemenu -->
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title" key="t-menu">Anasayfa</li>
-                <li>
-                    <a href=@Url.Action("Index", "Home") class="waves-effect">
-                        <i class="bx bx-home"></i>
-                        <span key="t-dashboard">Ana Panel</span>
-                    </a>
-                </li>
-                <li class="menu-title" key="t-apps">Yönetici İşlemleri</li>
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-store"></i>
-                        <span key="t-ecommerce">Ürün Yönetimi</span>
+                        <i class="bx bx-layout"></i>
+                        <span key="t-layouts">Yönetim</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href=@Url.Action("Index", "Products") key="t-products">Ürün Listesi</a></li>
-                        <li><a href=@Url.Action("AddProduct", "Products") key="t-product-detail">Ürün Ekle</a></li>
-                        <li><a href=@Url.Action("Index", "Categories") key="t-products">Kategori Listesi</a></li>
-                        <li><a href=@Url.Action("AddCategory", "Categories") key="t-product-detail">Kategori Ekle</a></li>
+                    <ul class="sub-menu" aria-expanded="true">
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow" key="t-vertical">Ürün Yönetimi</a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href=@Url.Action("Index", "Products") key="t-light-sidebar">Ürün Listesi</a></li>
+                                <li><a href=@Url.Action("AddProduct", "Products") key="t-compact-sidebar">Ürün Ekle</a></li>
+                                <li><a href=@Url.Action("Index", "Categories") key="t-icon-sidebar">Kategori Listesi</a></li>
+                                <li><a href=@Url.Action("AddCategory", "Categories") key="t-boxed-width">Kategori Ekle</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
+
+                <li class="menu-title" key="t-apps">Apps</li>
+
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-tone"></i>
-                        <span key="t-ecommerce">Renk Yönetimi</span>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="bx bx-calendar"></i><span class="badge rounded-pill bg-success float-end">New</span>
+                        <span key="t-dashboards">Calendars</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href=@Url.Action("Index", "Colors") key="t-products">Renk Listesi</a></li>
-                        <li><a href=@Url.Action("AddColor", "Colors") key="t-product-detail">Renk Ekle</a></li>
+                        <li><a href=@Url.Action("Index", "Calendar") key="t-tui-calendar">TUI Calendar</a></li>
+                        <li><a href=@Url.Action("Index", "CalendarFull") key="t-full-calendar">Full Calendar</a></li>
                     </ul>
                 </li>
+
                 <li>
                     <a href=@Url.Action("Index", "Chat") class="waves-effect">
                         <i class="bx bx-chat"></i>
@@ -338,7 +338,6 @@
 
             </ul>
         </div>
-        <!-- Sidebar -->
     </div>
 </div>
 <!-- Left Sidebar End -->

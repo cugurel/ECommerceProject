@@ -1,0 +1,176 @@
+﻿@using Entity.Concrete
+@model IEnumerable<Color>
+
+@{
+    ViewBag.Title = "Horizontal Layout";
+    ViewBag.pTitle = "Horizontal Layout";
+    ViewBag.pageTitle = "Horizontal";
+    Layout = "~/Views/_Shared/Layouts/_layout_light_sidebar.cshtml";
+}
+
+<div class="row">
+    <div class="col-xl-12">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mini-stats-wid">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <p class="text-muted fw-medium">Bugün Satış(Ciro)</p>
+                                <h4 class="mb-0">0 ₺</h4>
+                            </div>
+
+                            <div class="flex-shrink-0 align-self-center">
+                                <div class="mini-stat-icon avatar-sm rounded-circle bg-primary">
+                                    <span class="avatar-title">
+                                        <i class="bx bx-money font-size-24"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <h7 class="text-muted">Dün</h7>&nbsp;<h7 class="text-muted"><strong>0 ₺</strong></h7>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mini-stats-wid">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <p class="text-muted fw-medium">Kasa Durumu</p>
+                                <h4 class="mb-0">0 ₺</h4>
+                            </div>
+
+                            <div class="flex-shrink-0 align-self-center">
+                                <div class="avatar-sm rounded-circle bg-primary mini-stat-icon">
+                                    <span class="avatar-title rounded-circle bg-primary">
+                                        <i class="bx bxs-bank font-size-24"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <h7 class="text-muted">Bu Ay Çıkan</h7>&nbsp;<h7 class="text-muted"><strong>0 ₺</strong></h7>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mini-stats-wid">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <p class="text-muted fw-medium">Müşteri Kaydı(Bugün)</p>
+                                <h4 class="mb-0">1</h4>
+                            </div>
+
+                            <div class="flex-shrink-0 align-self-center">
+                                <div class="avatar-sm rounded-circle bg-primary mini-stat-icon">
+                                    <span class="avatar-title rounded-circle bg-primary">
+                                        <i class="bx bx-user-plus font-size-24"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <h7 class="text-muted">Dün</h7>&nbsp;<h7 class="text-muted"><strong>0</strong></h7>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mini-stats-wid">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <p class="text-muted fw-medium">Bekleyen Destek Talebi</p>
+                                <h4 class="mb-0">0</h4>
+                            </div>
+
+                            <div class="flex-shrink-0 align-self-center">
+                                <div class="avatar-sm rounded-circle bg-primary mini-stat-icon">
+                                    <span class="avatar-title rounded-circle bg-primary">
+                                        <i class="bx bx-support font-size-24"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div>
+                            <h7 class="text-muted">Toplam Çözümlenen</h7>&nbsp;<h7 class="text-muted"><strong>0</strong></h7>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Stoktaki aktif ürünler</h4>
+                <a href="/Color/AddColor" class="btn btn-sm btn-primary mb-2">Yeni Renk Ekle</a>
+                <div class="table-responsive">
+                    <table class="table align-middle table-nowrap mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="align-middle">Renk İsmi</th>
+                                <th class="align-middle">Renk Görseli</th>
+                                <th class="align-middle">Güncelle</th>
+                                <th class="align-middle">Sil</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.ColorName</td>
+                                    <td><img src="~/Files/ColorImages/@item.ImagePath" width="30" height="30"/></td>
+                                    
+                                    <td>
+                                        <a href="/Color/UpdateColor/@item.Id" class="btn btn-sm btn-success">Güncelle</a>
+                                    </td>
+                                    <td>
+                                        <a href="/Color/DeleteColor/@item.Id" class="btn btn-sm btn-danger">Sil</a>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- end table-responsive -->
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- end modal -->
+<!-- JAVASCRIPT -->
+<script src="~/assets/libs/jquery/jquery.min.js"></script>
+<script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="~/assets/libs/node-waves/waves.min.js"></script>
+
+
+<!-- apexcharts -->
+<script src="~/assets/libs/apexcharts/apexcharts.min.js"></script>
+
+<script src="~/assets/js/pages/dashboard.init.js"></script>
+
+<script src="~/assets/js/app.js"></script>
+

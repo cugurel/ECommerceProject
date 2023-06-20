@@ -120,6 +120,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cagri/source/repos/Solution/Presentation/Views/Colors/AddColor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEFkZENvbG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/source/repos/Solution/Presentation/Views/Colors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cagri/source/repos/Solution/Presentation/Views/ConfirmMail2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWwyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -744,46 +752,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_boxed.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfYm94ZWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_colored_sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfY29sb3JlZF9zaWRlYmFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_compact_sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfY29tcGFjdF9zaWRlYmFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_horizontal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfaG9yaXpvbnRhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_horizontal_boxed.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfaG9yaXpvbnRhbF9ib3hlZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_horizontal_colored.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfaG9yaXpvbnRhbF9jb2xvcmVkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_horizontal_topbarlight.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfaG9yaXpvbnRhbF90b3BiYXJsaWdodC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_icon_sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfaWNvbl9zaWRlYmFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_light_sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfbGlnaHRfc2lkZWJhci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_layout_preloader.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9sYXlvdXRfcHJlbG9hZGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/Layouts/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxMYXlvdXRzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -802,10 +770,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/_horizontal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxfaG9yaXpvbnRhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/_layout_ico_loading.cshtml]
@@ -834,8 +798,4 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/cagri/source/repos/Solution/Presentation/Views/_Shared/_vendor_scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1NoYXJlZFxfdmVuZG9yX3NjcmlwdHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cagri/source/repos/Solution/Presentation/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
