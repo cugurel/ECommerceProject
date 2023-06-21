@@ -135,5 +135,15 @@ namespace UI.Controllers
             _productService.Delete(result.Data);
             return RedirectToAction("Index", "Product");
         }
+
+
+        public IActionResult ProductDetail(int id)
+        {
+
+            ViewBag.ColorMatch = c.ProductColorMatches.Where(x => x.ProductId == id & x.Status == true).ToList();
+
+            var result = _productService.GetProductDetail(id);
+            return View(result.Data);
+        }
     }
 }

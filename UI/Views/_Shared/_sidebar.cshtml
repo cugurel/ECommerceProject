@@ -40,19 +40,28 @@
                     </ul>
                 </li>
 
-                <li class="menu-title" key="t-apps">Apps</li>
+                <li class="menu-title" key="t-apps">Yönetici Menüsü</li>
 
                 <li>
-                    <a href="javascript: void(0);" class="waves-effect">
-                        <i class="bx bx-calendar"></i><span class="badge rounded-pill bg-success float-end">New</span>
-                        <span key="t-dashboards">Calendars</span>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-shield"></i>
+                        <span key="t-ecommerce">Rol Yönetimi</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href=@Url.Action("Index", "Calendar") key="t-tui-calendar">TUI Calendar</a></li>
-                        <li><a href=@Url.Action("Index", "CalendarFull") key="t-full-calendar">Full Calendar</a></li>
+                        <li><a href=@Url.Action("AddRole", "Role") key="t-products">Rol Ekle</a></li>
+                        <li><a href=@Url.Action("Index", "Role") key="t-product-detail">Rol Listesi</a></li>
                     </ul>
                 </li>
-
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-user-circle"></i>
+                        <span key="t-ecommerce">Kullanıcı Yönetimi</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href=@Url.Action("Index", "User") key="t-products">Kullanıcı Listesi</a></li>
+                        <li><a href=@Url.Action("AddUser", "User") key="t-product-detail">Kullanıcı Ekle</a></li>
+                    </ul>
+                </li>
                 <li>
                     <a href=@Url.Action("Index", "Chat") class="waves-effect">
                         <i class="bx bx-chat"></i>

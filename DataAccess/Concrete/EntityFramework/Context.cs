@@ -20,5 +20,6 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Color> Colors { get; set; }
+        public DbSet<ProductColorMatch> ProductColorMatches { get; set; }
     }
 }

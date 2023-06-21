@@ -4889,6 +4889,1042 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\404-2.html",
+      "PackagePath": "staticwebassets\\html\\404-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\404.html",
+      "PackagePath": "staticwebassets\\html\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\about-us.html",
+      "PackagePath": "staticwebassets\\html\\about-us.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\html\\assets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\css\\cm.css",
+      "PackagePath": "staticwebassets\\html\\assets\\css\\cm.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\css\\ecommerce.css",
+      "PackagePath": "staticwebassets\\html\\assets\\css\\ecommerce.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\html\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\material-icons\\material-icons-outlined.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\material-icons\\material-icons-outlined.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\material-icons\\material-icons.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\material-icons\\material-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\montserrat-v25-latin\\montserrat-v25-latin-600.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\montserrat-v25-latin\\montserrat-v25-latin-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\montserrat-v25-latin\\montserrat-v25-latin-700.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\montserrat-v25-latin\\montserrat-v25-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\source-sans-pro-v21-latin\\source-sans-pro-v21-latin-700.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\source-sans-pro-v21-latin\\source-sans-pro-v21-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\fonts\\source-sans-pro-v21-latin\\source-sans-pro-v21-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\fonts\\source-sans-pro-v21-latin\\source-sans-pro-v21-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\8970987-768x593.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\8970987-768x593.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\android-applications.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\android-applications.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand1.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand1.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand2.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand2.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand3.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand3.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand4.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand4.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand5.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand5.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand6.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand6.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand7.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand7.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\brand8.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\brand8.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\circle.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\circle.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\codelab.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\codelab.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\earth.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\earth.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\hexa.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\hexa.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\lightai.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\lightai.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\nirastate.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\nirastate.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\treva.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\treva.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\brands\\zootv.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\brands\\zootv.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\call-center-solutions.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\call-center-solutions.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\cloud-development.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\cloud-development.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\compare-after.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\compare-after.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\compare-before.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\compare-before.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\corporate-solution.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\corporate-solution.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\dark.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\dark.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic2.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic2.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic3.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic3.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic4.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic4.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic5.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic5.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\classic6.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\classic6.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\online-store1.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\online-store1.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\online-store2.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\online-store2.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\demo\\online-store3.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\demo\\online-store3.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\form-subscribe-bg.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\form-subscribe-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-4.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-5.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-6.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\gallery-img-7.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\gallery-img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\img-1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img-r1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img-r1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img-r2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img-r2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img-r3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img-r3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img4.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img5.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img6.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img7.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img8.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\intro-img9.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\intro-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\ios-macos-apps.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\ios-macos-apps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\langer-messenger.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\langer-messenger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\light.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\light.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\mobile-finance.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\mobile-finance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\mplanner.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\mplanner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\p1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\p2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\p6.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\p6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\raptcash.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\raptcash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\search-by-photo.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\search-by-photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-4.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-5.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\services-img-6.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\services-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\banner-center-bg.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\banner-center-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\banner-s1-bg.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\banner-s1-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\bgd.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\bgd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\intro-s1-bg.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\intro-s1-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\intro-s1-bg@2x.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\intro-s1-bg@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\intro-sport1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\intro-sport1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\bg\\intro-sport1@2x.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\bg\\intro-sport1@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\b1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\b2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\b3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\fruint-banner.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\fruint-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\meat-banner.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\meat-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\ss-banner1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\ss-banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\ss-banner2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\ss-banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\cat\\vegetables-banner.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\cat\\vegetables-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\intro\\ig1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\intro\\ig1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\intro\\ig2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\intro\\ig2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\intro\\ig3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\intro\\ig3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\nikon.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\nikon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\p13.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\p13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\p14.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\p14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\p7.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\p7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\shop\\s-img1-d.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\shop\\s-img1-d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\sprite.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\sprite.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\sprite.svg.readme",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\sprite.svg.readme"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\subheader-corporate.png",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\subheader-corporate.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\t1.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\t2.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\t3.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\t4.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\t4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\ui-ux-design.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\ui-ux-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\img\\weathernow.jpg",
+      "PackagePath": "staticwebassets\\html\\assets\\img\\weathernow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\js\\animations.js",
+      "PackagePath": "staticwebassets\\html\\assets\\js\\animations.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\js\\cm.js",
+      "PackagePath": "staticwebassets\\html\\assets\\js\\cm.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\js\\custom-ecommerce.js",
+      "PackagePath": "staticwebassets\\html\\assets\\js\\custom-ecommerce.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\html\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\js\\forms.js",
+      "PackagePath": "staticwebassets\\html\\assets\\js\\forms.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\device\\device.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\device\\device.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\easy-pie-chart\\easypiechart.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\easy-pie-chart\\easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\bg-lazyload.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\bg-lazyload.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\flickity-fade.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\flickity-fade.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\flickity-fade.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\flickity-fade.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\flickity-imagesloaded.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\flickity-imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\flickity.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\flickity.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\flickity\\flickity.pkgd.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\flickity\\flickity.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\gsap\\ScrollTrigger.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\gsap\\ScrollTrigger.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\gsap\\gsap.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\gsap\\gsap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.png",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery-minicolors-master\\jquery.minicolors.png"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery-popup-overlay-gh-pages\\jquery.popupoverlay.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery-popup-overlay-gh-pages\\jquery.popupoverlay.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery-ui-range\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery-ui-range\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\css\\lg-thumbnail.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\css\\lg-thumbnail.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\css\\lg-video.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\css\\lg-video.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\css\\lg-zoom.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\css\\lg-zoom.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\css\\lightgallery.css",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\css\\lightgallery.css"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.svg",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.svg"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.ttf",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.ttf"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.woff",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.woff"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.woff2",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\fonts\\lgb687.woff2"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\lightgallery.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\lightgallery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\plugins\\thumbnail\\lg-thumbnail.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\plugins\\thumbnail\\lg-thumbnail.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\plugins\\video\\lg-video.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\plugins\\video\\lg-video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lightGallery\\plugins\\zoom\\lg-zoom.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lightGallery\\plugins\\zoom\\lg-zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\lozad\\lozad.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\lozad\\lozad.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\pristine\\pristine.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\pristine\\pristine.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\assets\\libs\\spincrement\\jquery.spincrement.min.js",
+      "PackagePath": "staticwebassets\\html\\assets\\libs\\spincrement\\jquery.spincrement.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\careers.html",
+      "PackagePath": "staticwebassets\\html\\careers.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\cart.html",
+      "PackagePath": "staticwebassets\\html\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\checkout.html",
+      "PackagePath": "staticwebassets\\html\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contact-us.html",
+      "PackagePath": "staticwebassets\\html\\contact-us.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts-agency-offices.html",
+      "PackagePath": "staticwebassets\\html\\contacts-agency-offices.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts-agency.html",
+      "PackagePath": "staticwebassets\\html\\contacts-agency.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts-company-classic.html",
+      "PackagePath": "staticwebassets\\html\\contacts-company-classic.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts-company.html",
+      "PackagePath": "staticwebassets\\html\\contacts-company.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts-offices.html",
+      "PackagePath": "staticwebassets\\html\\contacts-offices.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\contacts.html",
+      "PackagePath": "staticwebassets\\html\\contacts.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\forms.html",
+      "PackagePath": "staticwebassets\\html\\forms.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-2.html",
+      "PackagePath": "staticwebassets\\html\\home-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-3.html",
+      "PackagePath": "staticwebassets\\html\\home-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-4.html",
+      "PackagePath": "staticwebassets\\html\\home-4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-5.html",
+      "PackagePath": "staticwebassets\\html\\home-5.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-6.html",
+      "PackagePath": "staticwebassets\\html\\home-6.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-shop-1.html",
+      "PackagePath": "staticwebassets\\html\\home-shop-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-shop-2.html",
+      "PackagePath": "staticwebassets\\html\\home-shop-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\home-shop-3.html",
+      "PackagePath": "staticwebassets\\html\\home-shop-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\index-2.html",
+      "PackagePath": "staticwebassets\\html\\index-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\index-3.html",
+      "PackagePath": "staticwebassets\\html\\index-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-grid-2.html",
+      "PackagePath": "staticwebassets\\html\\news-grid-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-grid.html",
+      "PackagePath": "staticwebassets\\html\\news-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-left-sidebar.html",
+      "PackagePath": "staticwebassets\\html\\news-left-sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-post.html",
+      "PackagePath": "staticwebassets\\html\\news-post.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-right-sidebar.html",
+      "PackagePath": "staticwebassets\\html\\news-right-sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news-timeline.html",
+      "PackagePath": "staticwebassets\\html\\news-timeline.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\news.html",
+      "PackagePath": "staticwebassets\\html\\news.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\preview.html",
+      "PackagePath": "staticwebassets\\html\\preview.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\previewc7fa.html",
+      "PackagePath": "staticwebassets\\html\\previewc7fa.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\privacy-policy.html",
+      "PackagePath": "staticwebassets\\html\\privacy-policy.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\product-affiliate.html",
+      "PackagePath": "staticwebassets\\html\\product-affiliate.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\product-group.html",
+      "PackagePath": "staticwebassets\\html\\product-group.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\product-single.html",
+      "PackagePath": "staticwebassets\\html\\product-single.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\product-single2.html",
+      "PackagePath": "staticwebassets\\html\\product-single2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\product-variable.html",
+      "PackagePath": "staticwebassets\\html\\product-variable.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\projects-box.html",
+      "PackagePath": "staticwebassets\\html\\projects-box.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\projects-classic.html",
+      "PackagePath": "staticwebassets\\html\\projects-classic.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\projects-image-flip.html",
+      "PackagePath": "staticwebassets\\html\\projects-image-flip.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\projects-image-hover.html",
+      "PackagePath": "staticwebassets\\html\\projects-image-hover.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\search-results.html",
+      "PackagePath": "staticwebassets\\html\\search-results.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-about-circular-icons.html",
+      "PackagePath": "staticwebassets\\html\\section-about-circular-icons.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-about-tabs-carousel.html",
+      "PackagePath": "staticwebassets\\html\\section-about-tabs-carousel.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-about.html",
+      "PackagePath": "staticwebassets\\html\\section-about.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-banner-grid.html",
+      "PackagePath": "staticwebassets\\html\\section-banner-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-banner-row.html",
+      "PackagePath": "staticwebassets\\html\\section-banner-row.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-base.html",
+      "PackagePath": "staticwebassets\\html\\section-base.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-brands.html",
+      "PackagePath": "staticwebassets\\html\\section-brands.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-countdown.html",
+      "PackagePath": "staticwebassets\\html\\section-countdown.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-counters.html",
+      "PackagePath": "staticwebassets\\html\\section-counters.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-gallery-classic-no-padding.html",
+      "PackagePath": "staticwebassets\\html\\section-gallery-classic-no-padding.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-gallery-classic.html",
+      "PackagePath": "staticwebassets\\html\\section-gallery-classic.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-gallery-masonry-no-padding.html",
+      "PackagePath": "staticwebassets\\html\\section-gallery-masonry-no-padding.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-gallery-masonry.html",
+      "PackagePath": "staticwebassets\\html\\section-gallery-masonry.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-icon-items-type-1.html",
+      "PackagePath": "staticwebassets\\html\\section-icon-items-type-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-icon-items-type-2.html",
+      "PackagePath": "staticwebassets\\html\\section-icon-items-type-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-icon-items-type-3.html",
+      "PackagePath": "staticwebassets\\html\\section-icon-items-type-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-icon-items-type-4.html",
+      "PackagePath": "staticwebassets\\html\\section-icon-items-type-4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-image-comparison.html",
+      "PackagePath": "staticwebassets\\html\\section-image-comparison.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-image-items-type-1.html",
+      "PackagePath": "staticwebassets\\html\\section-image-items-type-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-image-items-type-2.html",
+      "PackagePath": "staticwebassets\\html\\section-image-items-type-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-image-items-type-3.html",
+      "PackagePath": "staticwebassets\\html\\section-image-items-type-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-image-items-type-4.html",
+      "PackagePath": "staticwebassets\\html\\section-image-items-type-4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-intro.html",
+      "PackagePath": "staticwebassets\\html\\section-intro.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-items-of-numbers.html",
+      "PackagePath": "staticwebassets\\html\\section-items-of-numbers.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-pricing-type-1.html",
+      "PackagePath": "staticwebassets\\html\\section-pricing-type-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-pricing-type-2.html",
+      "PackagePath": "staticwebassets\\html\\section-pricing-type-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-pricing-type-3.html",
+      "PackagePath": "staticwebassets\\html\\section-pricing-type-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-process-steps.html",
+      "PackagePath": "staticwebassets\\html\\section-process-steps.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-progress-bars.html",
+      "PackagePath": "staticwebassets\\html\\section-progress-bars.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-tabs-accordions.html",
+      "PackagePath": "staticwebassets\\html\\section-tabs-accordions.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-team-type-1.html",
+      "PackagePath": "staticwebassets\\html\\section-team-type-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-team-type-2.html",
+      "PackagePath": "staticwebassets\\html\\section-team-type-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\section-testimonials.html",
+      "PackagePath": "staticwebassets\\html\\section-testimonials.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-icon-1.html",
+      "PackagePath": "staticwebassets\\html\\services-icon-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-icon-2.html",
+      "PackagePath": "staticwebassets\\html\\services-icon-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-icon-3.html",
+      "PackagePath": "staticwebassets\\html\\services-icon-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-icon-4.html",
+      "PackagePath": "staticwebassets\\html\\services-icon-4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-image-1.html",
+      "PackagePath": "staticwebassets\\html\\services-image-1.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-image-2.html",
+      "PackagePath": "staticwebassets\\html\\services-image-2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-image-3.html",
+      "PackagePath": "staticwebassets\\html\\services-image-3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services-image-4.html",
+      "PackagePath": "staticwebassets\\html\\services-image-4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\services.html",
+      "PackagePath": "staticwebassets\\html\\services.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop-fullwidth.html",
+      "PackagePath": "staticwebassets\\html\\shop-fullwidth.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop-list.html",
+      "PackagePath": "staticwebassets\\html\\shop-list.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop-right-sidebar.html",
+      "PackagePath": "staticwebassets\\html\\shop-right-sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop.html",
+      "PackagePath": "staticwebassets\\html\\shop.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop2.html",
+      "PackagePath": "staticwebassets\\html\\shop2.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop3.html",
+      "PackagePath": "staticwebassets\\html\\shop3.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\shop4.html",
+      "PackagePath": "staticwebassets\\html\\shop4.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-job.html",
+      "PackagePath": "staticwebassets\\html\\single-job.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-default-slider.html",
+      "PackagePath": "staticwebassets\\html\\single-project-default-slider.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-gallery-grid.html",
+      "PackagePath": "staticwebassets\\html\\single-project-gallery-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-gallery-masonry.html",
+      "PackagePath": "staticwebassets\\html\\single-project-gallery-masonry.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-image-comparison.html",
+      "PackagePath": "staticwebassets\\html\\single-project-image-comparison.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-image-list.html",
+      "PackagePath": "staticwebassets\\html\\single-project-image-list.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-mobile-kit.html",
+      "PackagePath": "staticwebassets\\html\\single-project-mobile-kit.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-project-zig-zag-image-text.html",
+      "PackagePath": "staticwebassets\\html\\single-project-zig-zag-image-text.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\single-service.html",
+      "PackagePath": "staticwebassets\\html\\single-service.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\tables.html",
+      "PackagePath": "staticwebassets\\html\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\terms-and-conditions.html",
+      "PackagePath": "staticwebassets\\html\\terms-and-conditions.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\ui.html",
+      "PackagePath": "staticwebassets\\html\\ui.html"
+    },
+    {
+      "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\html\\wishlist.html",
+      "PackagePath": "staticwebassets\\html\\wishlist.html"
+    },
+    {
       "Id": "C:\\Users\\cagri\\source\\repos\\Solution\\UI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

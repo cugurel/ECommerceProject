@@ -24,7 +24,7 @@
                                 <input id="productname" name="ProductName" type="text" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label class="control-label">Category</label>
+                                <label class="control-label">Kategori</label>
                                 @Html.DropDownList("CategoryId",(List<SelectListItem>)ViewBag.CategoryList,"Kategori Seçiniz",new {@name="CategoryId", @class="form-select"})
                             </div>
                             <div class="mb-3">
@@ -35,10 +35,7 @@
                                 <label for="price">Uygulama Metodu</label>
                                 <input id="price" name="ConsumeMethod" type="text" class="form-control" >
                             </div>
-                            <div class="mb-3">
-                                <label for="price">Ambalajlama</label>
-                                <input id="price" name="Packaging" type="text" class="form-control">
-                            </div>
+                            
                         </div>
 
                         <div class="col-sm-6">
@@ -97,25 +94,14 @@
         })
     }
 </script>
-<!-- end row -->
-<!-- JAVASCRIPT -->
 <script src="~/assets/libs/jquery/jquery.min.js"></script>
 <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="~/assets/libs/metismenu/metisMenu.min.js"></script>
 <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
 <script src="~/assets/libs/node-waves/waves.min.js"></script>
-
-
-<!-- select 2 plugin -->
 <script src="~/assets/libs/select2/js/select2.min.js"></script>
-
-<!-- dropzone plugin -->
 <script src="~/assets/libs/dropzone/min/dropzone.min.js"></script>
-
-<!-- init js -->
 <script src="~/assets/js/pages/ecommerce-select2.init.js"></script>
-
-<!-- App js -->
 <script src="~/assets/js/app.js"></script>
 
 
